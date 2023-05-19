@@ -1,0 +1,6 @@
+{
+    "java.showBuildStatusOnStart.enabled": "notification",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",   
+    ]
+}
