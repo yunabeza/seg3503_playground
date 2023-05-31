@@ -33,13 +33,13 @@ Output from running the test.
 <br>![image](Photo/Ok-valuesForParamateurizedTest.png)
 
 <br>Test case with parameterized test values that run Ok
-<br>![image](Photo/Test%20for%20parameteurized exception.png)
+<br>![image](Photo/Test%20for%20parameteurized%20exception.png)
 
 <br>Parameterized test values for tests cases that do result in an exception.
 <br>![image](Photo/Exception-valuesForParameteurizedTest.png)
 
 <br>Test case with parameterized test values that do result in an exception
-<br>![image](Photo/Test%20for%20parameteurized noexception.png)
+<br>![image](Photo/Test%20for%20parameteurized%20noexception.png)
 
 
 
