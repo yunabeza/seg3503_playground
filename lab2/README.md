@@ -11,7 +11,7 @@
 | Test Case  | Expected Results   | Actual Results  | Verdict(Pass,Fail,Inconclusive)  |   
 |------|------|------|------|
 |  1 | accepted  | accepted <br> ![accept1](Photo/accept1.png) <br>![accept2](Photo/accep2.png)| Pass   |   |
-|  2 | accepted  | accepted <br> ![accept3](Photo/accept3.png) <br>![accept4](Photo/accept4.png) | Pass |   |
+|  2 | accepted  | accepted <br> ![accept3](Photo/accept3.png) <br>![accept4](Photo/accep4.png) | Pass |   |
 |  3 | accepted  | accepted <br> ![accept5](Photo/accept5.png) <br>![accept6](Photo/accept6.png)   | Pass  |   |
 |  4 | Err1  | Err1 and Err3 <br> ![fail1](Photo/fail1.png) | Fail  |   |
 |  5 | Err3  | Err1 and Err3 <br> ![fail2](Photo/fail2.png) | Fail  |   |
