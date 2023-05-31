@@ -16,10 +16,11 @@
 |  4 | Err1  | Err1 and Err3 <br> ![fail1](Photo/fail1.png) | Fail  |   |
 |  5 | Err3  | Err1 and Err3 <br> ![fail2](Photo/fail2.png) | Fail  |   |
 
-# Exercice 2
+# JUnit Parameterized runner
 Output from running the test.
 <br>![image](Photo/Output%20for%20running%20test.png)
 
+# Exercice 2
 <br>Test Run using bin/test
 <br>![image](Photo/test%20run%20using%20bin%20test.png)
 
@@ -30,7 +31,7 @@ Output from running the test.
 <br>![image](Photo/DateTest-withException.png)
 
 <br>Parameterized test values for test cases that run OK and return a Date.
-<br>![image](Photo/Ok-valuesForParameteurizedTest.png)
+<br>![image](Photo/OK-valuesForParameteurizedTest.png)
 
 <br>Test case with parameterized test values that run Ok
 <br>![image](Photo/Test%20for%20parameteurized%20exception.png)
