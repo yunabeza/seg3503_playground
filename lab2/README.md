@@ -18,12 +18,28 @@
 
 # Exercice 2
 Output from running the test.
-Typical explicit test case that doesn’t use exception.
-Explicit test cases that have exceptions.
-Parameterized test values for test cases that run OK and return a Date.
-Test case with parameterized test values that run Ok
-Parameterized test values for tests cases that do result in an exception.
-Test case with parameterized test values that do result in an exception
+<br>![image] (Photo/Output for running test.png)
+
+<br>Test Run using bin/test
+<br>![image] (Photo/test run using bin.png)
+
+<br>Typical explicit test case that doesn’t use exception.
+<br>![image] (Photo/DateTest-noException.png)
+
+<br>Explicit test cases that have exceptions.
+<br>![image] (Photo/DateTest-withException.png)
+
+<br>Parameterized test values for test cases that run OK and return a Date.
+<br>![image] (Photo/Ok-valuesForParamateurizedTest.png)
+
+<br>Test case with parameterized test values that run Ok
+<br>![image] (Photo/Test for parameteurized exception.png)
+
+<br>Parameterized test values for tests cases that do result in an exception.
+<br>![image] (Photo/Exception-valuesForParameteurizedTest.png)
+
+<br>Test case with parameterized test values that do result in an exception
+<br>![image] (Photo/Test for parameteurized noexception.png)
 
 
 
