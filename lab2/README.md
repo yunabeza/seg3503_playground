@@ -21,7 +21,7 @@ Output from running the test.
 <br>![image](Photo/Output%20for%20running%20test.png)
 
 <br>Test Run using bin/test
-<br>![image](Photo/test run using bin.png)
+<br>![image](Photo/test%20run%20using%20bin.png)
 
 <br>Typical explicit test case that doesn’t use exception.
 <br>![image](Photo/DateTest-noException.png)
@@ -33,13 +33,13 @@ Output from running the test.
 <br>![image](Photo/Ok-valuesForParamateurizedTest.png)
 
 <br>Test case with parameterized test values that run Ok
-<br>![image](Photo/Test for parameteurized exception.png)
+<br>![image](Photo/Test%20for%20parameteurized exception.png)
 
 <br>Parameterized test values for tests cases that do result in an exception.
 <br>![image](Photo/Exception-valuesForParameteurizedTest.png)
 
 <br>Test case with parameterized test values that do result in an exception
-<br>![image](Photo/Test for parameteurized noexception.png)
+<br>![image](Photo/Test%20for%20parameteurized noexception.png)
 
 
 
