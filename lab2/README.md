@@ -10,11 +10,11 @@
 # Exercise 1
 | Test Case  | Expected Results   | Actual Results  | Verdict(Pass,Fail,Inconclusive)  |   
 |------|------|------|------|
-|  1 | accepted  | accepted <br> ![accept1](Photo/accept1.png) <br>![image](Photo/accep2.png)| Pass   |   |
-|  2 | accepted  | accepted <br> ![image](Photo/accept3) <br>![accep4](https://github.com/DeSanata/seg3503_playground/assets/92126579/e01b97a2-f8c6-4fc1-b89f-f364c5dc6d36) | Pass |   |
-|  3 | accepted  | accepted <br> ![accept5](https://github.com/DeSanata/seg3503_playground/assets/92126579/e255be35-7134-4ac7-9b1d-29788255be57) <br>![accept6](https://github.com/DeSanata/seg3503_playground/assets/92126579/07968fe8-4cbb-4697-a377-91e1c95ff883)   | Pass  |   |
-|  4 | Err1  | Err1 and Err3 <br> ![fail1](https://github.com/DeSanata/seg3503_playground/assets/92126579/eaf77f59-a12f-4da3-b36e-670cd47aaeee) | Fail  |   |
-|  5 | Err3  | Err1 and Err3 <br> ![fail2](https://github.com/DeSanata/seg3503_playground/assets/92126579/21836a6b-1832-4050-84f0-21385c2ce3fe) | Fail  |   |
+|  1 | accepted  | accepted <br> ![accept1](Photo/accept1.png) <br>![accept2](Photo/accep2.png)| Pass   |   |
+|  2 | accepted  | accepted <br> ![accept3](Photo/accept3.png) <br>![accept4](Photo/accept4.png) | Pass |   |
+|  3 | accepted  | accepted <br> ![accept5](Photo/accept5.png) <br>![accept6](Photo/accept6.png)   | Pass  |   |
+|  4 | Err1  | Err1 and Err3 <br> ![fail1](Photo/fail1.png) | Fail  |   |
+|  5 | Err3  | Err1 and Err3 <br> ![fail2](Photo/fail2.png) | Fail  |   |
 
 # Exercice 2
 Output from running the test.
