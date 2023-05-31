@@ -10,7 +10,7 @@
 # Exercise 1
 | Test Case  | Expected Results   | Actual Results  | Verdict(Pass,Fail,Inconclusive)  |   
 |------|------|------|------|
-|  1 | accepted  | accepted <br> ![accept1](Photo/accept1) <br>![image](Photo/accep2)| Pass   |   |
+|  1 | accepted  | accepted <br> ![accept1](Photo/accept1.png) <br>![image](Photo/accep2.png)| Pass   |   |
 |  2 | accepted  | accepted <br> ![image](Photo/accept3) <br>![accep4](https://github.com/DeSanata/seg3503_playground/assets/92126579/e01b97a2-f8c6-4fc1-b89f-f364c5dc6d36) | Pass |   |
 |  3 | accepted  | accepted <br> ![accept5](https://github.com/DeSanata/seg3503_playground/assets/92126579/e255be35-7134-4ac7-9b1d-29788255be57) <br>![accept6](https://github.com/DeSanata/seg3503_playground/assets/92126579/07968fe8-4cbb-4697-a377-91e1c95ff883)   | Pass  |   |
 |  4 | Err1  | Err1 and Err3 <br> ![fail1](https://github.com/DeSanata/seg3503_playground/assets/92126579/eaf77f59-a12f-4da3-b36e-670cd47aaeee) | Fail  |   |
