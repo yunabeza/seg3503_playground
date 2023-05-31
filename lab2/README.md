@@ -18,7 +18,8 @@
 
 # JUnit Parameterized runner
 Output from running the test.
-<br>![image](Photo/Output%20for%20running%20test.png)
+<br>![image](Photo/Output%20for%20running%20test-0.png)
+<br>![image](Photo/Output%20for%20running%20test-1.png)
 
 # Exercice 2
 <br>Test Run using bin/test
