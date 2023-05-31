@@ -18,7 +18,7 @@
 
 # Exercice 2
 Output from running the test.
-<br>![image](Photo/Output for running test.png)
+<br>![image](Photo/Output%20for%20running%20test.png)
 
 <br>Test Run using bin/test
 <br>![image](Photo/test run using bin.png)
