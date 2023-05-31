@@ -16,6 +16,16 @@
 |  4 | Err1  | Err1 and Err3 <br> ![fail1](https://github.com/DeSanata/seg3503_playground/assets/92126579/eaf77f59-a12f-4da3-b36e-670cd47aaeee) | Fail  |   |
 |  5 | Err3  | Err1 and Err3 <br> ![fail2](https://github.com/DeSanata/seg3503_playground/assets/92126579/21836a6b-1832-4050-84f0-21385c2ce3fe) | Fail  |   |
 
+# Exercice 2
+Output from running the test.
+Typical explicit test case that doesn’t use exception.
+Explicit test cases that have exceptions.
+Parameterized test values for test cases that run OK and return a Date.
+Test case with parameterized test values that run Ok
+Parameterized test values for tests cases that do result in an exception.
+Test case with parameterized test values that do result in an exception
+
+
 
 
 
