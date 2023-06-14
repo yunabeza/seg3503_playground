@@ -8,6 +8,7 @@
 | TA | Joseph Abonasara  |
 | Team | Sanata Dembele 300237772 <br> Lolita Inabeza 300218895|
 
+<br>
 ## Date coverage before
 
 ![Date coverage before](Photos/date_before_coverage.png)
@@ -19,7 +20,7 @@
 
 ![Date coverage after](Photos/Date_coverage_after.png)
 
-<br> ![Date's method coverage after](Photos/dateMethods_coverage_after.png)
+<br> ![Date's method coverage after](Photos/dateMethods_%20coverage_after.png)
 
 __tests results after adding new tests and refactoring date.java__
 <br> ![tests results](Photos/jacoco_run_3.png)
