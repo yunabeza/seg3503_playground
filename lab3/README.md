@@ -12,14 +12,14 @@
 
 ![Date coverage before](Photos/date_before_coverage.png)
 
-<br> ![Date's method coverage before](Photos/DateMethods_coverage_before.png)
+<br> ![Date's method coverage before](Photos/Datemethods_coverage_before.png)
 
 
 ## Code coverage after
 
-![Date coverage after](Photos/date_coverage_after.png)
+![Date coverage after](Photos/Date_coverage_after.png)
 
-<br> ![Date's method coverage after](Photos/DateMethods_coverage_after.png)
+<br> ![Date's method coverage after](Photos/dateMethods_coverage_after.png)
 
 __tests results after adding new tests and refactoring date.java__
 <br> ![tests results](Photos/jacoco_run_3.png)
