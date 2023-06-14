@@ -31,6 +31,12 @@ public class DateNextDateExceptionTest
     params.add(new Integer[] { -1, 10, 20 });
     params.add(new Integer[] { 1458, 15, 12 });
     params.add(new Integer[] { 1975, 6, -50 });
+
+    //new entries
+    params.add(new Integer[] {1975, 6, 31});
+		params.add(new Integer[] {1850, 10, 50});
+		params.add(new Integer[] {1975, -1, 12});
+		params.add(new Integer[] {2000, 2, 31});
     return params;
   }
 
