@@ -28,7 +28,7 @@
 ## Added tests to achieve full coverage
 
 <p> Adding test cases helps achieve full coverage because the added tests aim to cover missed branches,
-instructions, or conditions. For example the method __toString__ and its instructions were not covered, so I added 
+instructions, or conditions. For example the method <strong>__toString__</strong> and its instructions were not covered, so I added 
 a test to cover it.</p>
 
 <br> __Additional nextDate test cases__
@@ -50,7 +50,7 @@ a test to cover it.</p>
 
 <br> <p>We modified the isEndOfMonth and isThirtyDayMonth methods to return directly, the result of the condition passed to the if statement used in order to modify the number of instructions to cover </p>
 
-<p>Note that in the isEndOfMonth method, the condition **(day == 31 || (day == 30 && isThirtyDayMonth()) || (this.month == 2 && ((day == 29 && leap) || (day == 28 && !leap))))**, will never be fully covered
+<p>Note that in the isEndOfMonth method, the condition <strong>__(day == 31 || (day == 30 && isThirtyDayMonth()) || (this.month == 2 && ((day == 29 && leap) || (day == 28 && !leap))))__</strong> , will never be fully covered
 because the case where the month is February, the day is 29, and the year is not a leap year cannot be covered as such day will throw an exception during its creation, meaning we cannot reach the step where nextDate calls isEndOfMonth, in this case. <br> To attain full coverage, I modified the condition per the below picture </p>
 
 <br>![After refactoring](Photos/Date_after_refactoring.png)
