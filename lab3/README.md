@@ -32,7 +32,7 @@ instructions, or conditions. For example the method <strong>__toString__</strong
 a test to cover it.</p>
 
 <br> __Additional nextDate test cases__
-![tests for nextDate](Photos/nextDate%20test.png)
+<br> ![tests for nextDate](Photos/nextDate%20test.png)
 
 <br> __Additional Exception test cases__
 <br> ![tests for exceptions](Photos/Exception_test.png)
