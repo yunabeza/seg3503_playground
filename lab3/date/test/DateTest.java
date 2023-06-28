@@ -149,4 +149,103 @@ class DateTest {
     );
   }
 
+
+
+
+  // new test added
+
+  //next date tests
+  @Test
+  void nextDate_tc16() {
+
+    Date today = new Date(2015, 2, 28);
+    Date expectedTomorrow = new Date(2015, 3, 1);
+    assertEquals(expectedTomorrow, today.nextDate());
+  }
+
+  @Test
+  void nextDate_tc17() {
+    Date today = new Date(3456, 9, 29);
+    Date expectedTomorrow = new Date(3456, 9, 30);
+    assertEquals(expectedTomorrow, today.nextDate());
+  }
+
+  @Test
+  void nextDate_tc18() {
+    Date today = new Date(4000, 2, 28);
+    Date expectedTomorrow = new Date(4000, 2, 29);
+    assertEquals(expectedTomorrow, today.nextDate());
+  }
+  
+  //Exception test
+  @Test
+  void nextDate_invalid_tc21() {
+    assertThrows(
+      IllegalArgumentException.class,
+      () -> new Date(1975, 6, 31)
+    );
+  }
+
+  @Test
+  void nextDate_invalid_tc22() {
+    assertThrows(
+      IllegalArgumentException.class,
+      () -> new Date(1850, 10, 50)
+    );
+  }
+
+  @Test
+  void nextDate_invalid_tc23() {
+    assertThrows(
+      IllegalArgumentException.class,
+      () -> new Date(1975, -1, 12)
+    );
+  }
+  @Test
+  void nextDate_invalid_tc24() {
+    assertThrows(
+      IllegalArgumentException.class,
+      () -> new Date(2000, 2, 31)
+    );
+  }
+
+  //conversion to string test
+  @Test
+  void toString_test(){
+    Date date = new Date(2017, 4, 3);
+    assertEquals("2017/April/3", date.toString());
+  }
+
+
+  // equals method test
+  @Test
+  void equals_test1_OK(){
+    //comparing same dates
+    Date date = new Date (1507,8,4);
+    assertEquals(true ,date.equals(new Date(1507,8,4)));
+  }
+  @Test
+  void equals_test1_notOK(){
+    //different year,month, and date
+    Date date = new Date (1910,4,14);
+    assertEquals(false,date.equals(new Date(1900,3,21)));
+  }
+  @Test
+  void equals_test2_NotOK(){
+    //different date
+    Date date = new Date (150,5,20);
+    assertEquals(false,date.equals(new Date(150,5,17)));
+  }
+  @Test
+  void equals_test3_NotOK(){
+    //different month
+    Date date = new Date (3123,9,4);
+    assertEquals(false,date.equals(new Date(3123,7,4)));
+  }
+  @Test
+  void equals_test_NotOK(){
+    //comparing date instance to different object instance
+    Date date = new Date (300,11,13);
+    assertEquals(false ,date.equals(new String ("1507")));
+  }
 }
