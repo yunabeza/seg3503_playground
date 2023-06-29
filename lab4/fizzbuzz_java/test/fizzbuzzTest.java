@@ -26,4 +26,9 @@ public class fizzbuzzTest {
         fizzbuzz f1 = new fizzbuzz();
         assertEquals("202", f1.FizzBuzzOrNum(202));
     }
+    @Test
+    public void test_5(){
+        fizzbuzz f1 = new fizzbuzz();
+        assertEquals("3 4 5 6 ", f1.generator(3, 6));
+    }
 }

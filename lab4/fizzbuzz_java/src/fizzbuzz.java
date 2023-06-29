@@ -10,7 +10,7 @@ public class fizzbuzz{
 
     public String generator(int n, int m) {
         for (int i = n; i <= m; i++) {
-            sequence += FizzBuzzOrNum(i) + ", ";
+            sequence += FizzBuzzOrNum(i) + " ";
         }
         return sequence;
     }
