@@ -21,4 +21,9 @@ public class fizzbuzzTest {
         fizzbuzz f1 = new fizzbuzz();
         assertEquals("FizzBuzz", f1.FizzBuzzOrNum(105));
     }
+    @Test
+    public void test_4(){
+        fizzbuzz f1 = new fizzbuzz();
+        assertEquals("Fizz", f1.FizzBuzzOrNum(202));
+    }
 }
