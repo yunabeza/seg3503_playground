@@ -8,6 +8,6 @@ public class fizzbuzzTest {
     @Test
     public void test_1(){
         fizzbuzz f1 = new fizzbuzz();
-        assertEquals("5", f1.FizzBuzzOrNum(5));
+        assertEquals("Buzz", f1.FizzBuzzOrNum(5));
     }
 }
