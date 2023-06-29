@@ -29,6 +29,6 @@ public class fizzbuzzTest {
     @Test
     public void test_5(){
         fizzbuzz f1 = new fizzbuzz();
-        assertEquals("3 4 5 6 ", f1.generator(3, 6));
+        assertEquals("Fizz 4 Buzz Fizz ", f1.generator(3, 6));
     }
 }
