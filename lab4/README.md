@@ -15,6 +15,11 @@
 
 ## My commits
 
+Test1, test2, test3, and test4 are implemented to test how the FizzBuzzOrNum method works
+<br> ![FizzBuzzOrNum](Photos/FizzBuzzOrNum_method.png)
+<br> <br> Test5 tests the generator(n,m) method
+<br> ![Generator](Photos/generator_method.png)
+
 | Commit name | Commit number | Commit description |
 | --- | --- | --- |
 | test 1 failing <br> <br> updated bin/test| 51af667aac1dd2aad3fb977810d5342930dd126c <br> <br> a465c2ba3e77b104acf81f51e947261e02ca7402 | Fail <br> ![test1 fail](Photos/test1Fail.png) <br> <br> Pass <br> ![test1 success](Photos/test1sucess.png)|
