@@ -39,7 +39,6 @@ After refactoring the code, tests kept giving the same results <br> <br>
 <br> ![before refactoring test results](Photos/resultsBeforeRefactoring.png) <br> <br>
 
 **After refactoring**
-
 <br> Commit name: refactored fizzbuzz.java and added photos
 <br> Commit number: 17c7fc4e40fd06abceb5a7af8cdf070bbf7feffe
 <br> ![after refactoring](Photos/afterRefactoring.png)
