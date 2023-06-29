@@ -10,4 +10,11 @@ public class fizzbuzzTest {
         fizzbuzz f1 = new fizzbuzz();
         assertEquals("Buzz", f1.FizzBuzzOrNum(5));
     }
+
+    @Test
+    public void test_2(){
+        fizzbuzz f1 = new fizzbuzz();
+        assertEquals("Buzz", f1.FizzBuzzOrNum(21));
+    }
+    
 }
