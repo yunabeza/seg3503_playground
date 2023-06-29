@@ -32,13 +32,13 @@ Test1, test2, test3, and test4 are implemented to test how the FizzBuzzOrNum met
 
 ### Code Refactoring
 
-After refactoring the code, tests kept giving the same results <br>
+After refactoring the code, tests kept giving the same results <br> <br>
 **Before refactoring**
 <br> ![before refactoring](Photos/beforeRefactoring.png)
-<br> <br> Results
-<br> ![before refactoring test results](Photos/resultsBeforeRefactoring.png) <br>
+<br> Results
+<br> ![before refactoring test results](Photos/resultsBeforeRefactoring.png) <br> <br>
 
 **After refactoring**
 <br> ![after refactoring](Photos/afterRefactoring.png)
-<br> <br> Results
+<br> Results
 <br> ![after refactoring test results](Photos/resultsAfterRefactoring.png)
