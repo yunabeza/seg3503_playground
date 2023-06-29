@@ -19,6 +19,6 @@ public class fizzbuzzTest {
     @Test
     public void test_3(){
         fizzbuzz f1 = new fizzbuzz();
-        assertEquals("105", f1.FizzBuzzOrNum(105));
+        assertEquals("FizzBuzz", f1.FizzBuzzOrNum(105));
     }
 }
