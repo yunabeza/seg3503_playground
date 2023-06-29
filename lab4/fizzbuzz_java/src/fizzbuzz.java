@@ -18,26 +18,19 @@ public class fizzbuzz{
         return sequence;
     }
 
-    //detects is the number is fizz, buzz, fizzbuzz, or none 
+    //detects is the number is fizz, buzz, fizzbuzz, or none of those
     public String FizzBuzzOrNum(int n){
-         if (isMultipleOf3(n) && isMultipleOf5(n)) {
+         if ((n % 3) == 0 && (n % 5) == 0) {
                 return "FizzBuzz";
-            } else if (isMultipleOf3(n)) {
+            } else if ((n % 3) == 0) {
                 return"Fizz";
-            } else if (isMultipleOf5(n)) {
+            } else if ((n % 5) == 0) {
                 return "Buzz";
             } else {
                 return Integer.toString(n);
             }
     }
 
-    public boolean isMultipleOf3(int n) {
-        return (n % 3) == 0;
-    }
-
-    public boolean isMultipleOf5(int n) {
-       return (n % 5) == 0;
-    }
 }
 
     
