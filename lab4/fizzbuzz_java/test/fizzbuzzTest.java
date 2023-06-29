@@ -14,7 +14,7 @@ public class fizzbuzzTest {
     @Test
     public void test_2(){
         fizzbuzz f1 = new fizzbuzz();
-        assertEquals("Buzz", f1.FizzBuzzOrNum(21));
+        assertEquals("Fizz", f1.FizzBuzzOrNum(21));
     }
     
 }
