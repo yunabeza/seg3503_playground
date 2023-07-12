@@ -16,7 +16,7 @@
 ## My commits
 
 Test1, test2, test3, and test4 are implemented to test how the FizzBuzzOrNum method works
-<br> ![FizzBuzzOrNum](Photos/FizzBuzzOrNum_method.png)
+<br> ![FizzBuzzOrNum](Photos/afterRefactoring.png)
 <br> <br> Test5 tests the generator(n,m) method
 <br> ![Generator](Photos/generator_method.png)
 
@@ -28,3 +28,19 @@ Test1, test2, test3, and test4 are implemented to test how the FizzBuzzOrNum met
 | test4 is failing <br> <br> test4 is successful | d3278a49e88261d5f5d2a2250a7ad68d7b8866e3 <br> <br> c1ecf228f6724d89418655e0da78533557586e6b | Fail <br> ![test4 fail](Photos/test4fail.png) <br> <br> Pass <br> ![test4 success](Photos/test4success.png) |
 | test5 is failing <br> <br> test5 is successful | 80291f8a9fd250ba22d062202238947b8f2bde4f <br> <br> c3d6f7f26fe194686b07e78004ebbff7d6978e9b | Fail <br> ![test5 fail](Photos/test5Fail.png) <br><br> Pass <br> ![test5 success](Photos/test5success.png) |
 
+<br> 
+
+### Code Refactoring
+
+After refactoring the code, tests kept giving the same results <br> <br>
+**Before refactoring**
+<br> ![before refactoring](Photos/beforeRefactoring.png)
+<br> Results
+<br> ![before refactoring test results](Photos/resultsBeforeRefactoring.png) <br> <br>
+
+**After refactoring**
+<br> Commit name: refactored fizzbuzz.java and added photos
+<br> Commit number: 17c7fc4e40fd06abceb5a7af8cdf070bbf7feffe
+<br> ![after refactoring](Photos/afterRefactoring.png)
+<br> Results
+<br> ![after refactoring test results](Photos/resultsAfterRefactoring.png)
