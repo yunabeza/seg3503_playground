@@ -41,8 +41,8 @@ ci-bas vous pourrez voir la nouvelle implementation de isMentionned et les résu
 
 ![new isMentionned](Photos/isMentionnedAfter.png)
 
-<br> 
-**Résultas des tests**
+
+**Résultats des tests**
 <br> <br> 
 ![results after refactoring](Photos/resultsAfterRefactoring.png)
 
