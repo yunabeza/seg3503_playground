@@ -15,10 +15,23 @@
 
 ## Twitter
 
-**Implementation des 4 cas de test manquantes**
+###Implementation des 4 cas de test manquantes
 
-<img width="290" alt="image" src="https://github.com/yunabeza/seg3503_playground/assets/68513240/5cb8aec5-bf24-4f87-9ffa-e44eeb4b07f4">
-<img width="287" alt="image" src="https://github.com/yunabeza/seg3503_playground/assets/68513240/e7359ac1-9050-46dc-8648-df5f2dde6bd7">
+![missing tests](Photos/firstest.png)
+<br>
+![missing tests](Photos/secondtest.png)
+
+<br>
+
+**output**
+
+![results1](Photos/testsBeforeRefactoring.png)
+
+![results2](Photos/testsBeforeRefactoring_1.png)
 
 
+### Analyse des resultats des tests
 
+### Code refactoring
+
+![new isMentionned](Photos/isMentionnedAfter.png)
