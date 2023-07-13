@@ -6,7 +6,7 @@ import static org.easymock.EasyMock.*;
 
 class TwitterTest {
 
-    @Test
+    /*@Test
     void actual_call() {
 
         Twitter twitter = new Twitter();
@@ -52,7 +52,7 @@ class TwitterTest {
 
         actual = twitter.isMentionned("you");
         assertEquals(false, actual);
-    }
+    }*/
 
     @Test
     void isMentionned_lookForAtSymbol() {
@@ -72,12 +72,24 @@ class TwitterTest {
         assertEquals(false, actual);
     }
 
-    // @Test
-    // void isMentionned_dontReturnSubstringMatches() {
+    @Test
+    void isMentionned_dontReturnSubstringMatches() {
     // // Assuming a tweet like "hello @meat"
+        Twitter twitter = partialMockBuilder(Twitter.class)
+                .addMockedMethod("loadTweet")
+                .createMock();
+        expect(twitter.loadTweet()).andReturn("hello @meat").times(2);
+        replay(twitter);
     // // isMentionned("me") should be false
+        boolean actual;
+
+        actual = twitter.isMentionned("me");
+        assertEquals(false, actual);
     // // isMentionned("meat") should be true
-    // }
+        actual = twitter.isMentionned("meat");
+        assertEquals(true, actual);
+
+    }
 
     // @Test
     // void isMentionned_superStringNotFound() {
