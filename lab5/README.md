@@ -11,7 +11,7 @@
 <br>
 
 ## Grades
-Au début le bouton Calculate ne fonctionnait pas. Après des modifications du code :
+Au début lorsqu'on clique sur le  bouton Calculate aucun résultat ne s'affiche. Après des modifications de grades.ex on obtient le code final suivant:
 <br>
 ![gradecode1](Photos/CodeGrades1.png)
 <br>
