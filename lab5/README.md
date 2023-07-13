@@ -35,3 +35,7 @@
 ### Code refactoring
 
 ![new isMentionned](Photos/isMentionnedAfter.png)
+
+**Results**
+![results after refactoring](Photos/resultsAfterRefactoring.png)
+
