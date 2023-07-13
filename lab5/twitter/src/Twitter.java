@@ -18,7 +18,16 @@ public class Twitter {
 
   public boolean isMentionned(String name) {
     String tweet = loadTweet();
-    return tweet.contains("@" + name);
+    String expect = "@" + name;
+    String actual;
+    if (tweet != null){
+      int indexofAt = tweet.indexOf("@");
+      actual = tweet.substring(indexofAt);
+      return actual.equals(expect);
+    }
+    else{
+      return false;
+    }
   }
 
 }
