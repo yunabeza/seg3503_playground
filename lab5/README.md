@@ -11,7 +11,18 @@
 <br>
 
 ## Grades
+Au début le bouton Calculate ne fonctionnait pas. Après des modifications du code :
+<br>
+![gradecode1](Photos/CodeGrades1.png)
+<br>
+![gradecode2](Photos/CodeGrades2.png)
 
+
+À travers quelques test, nous pouvons apercevoir que l’application web nous affiche les valeurs prévues. Le back-end ainsi que le front-end fonctionnement comme attendu.  
+<br>
+![test1](Photos/GradesTest1.png)
+<br>
+![test2](Photos/GradesTest2.png)
 
 ## Twitter
 
