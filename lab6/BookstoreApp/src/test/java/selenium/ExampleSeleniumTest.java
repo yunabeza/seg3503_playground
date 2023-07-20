@@ -75,6 +75,21 @@ class ExampleSeleniumTest {
     actual = welcome.getText();
     assertEquals(expected, getWords(actual)[0]);
   }
+  @Test
+  public void test3(){
+    driver.findElement(By.id("searchBtn")).click();
+
+    driver.findElement(By.id("order-hall001")).click();
+    driver.findElement(By.id("order-hall001")).click();
+    driver.findElement(By.id("order-hall001")).click();
+    
+    int expected = 3;
+    driver.findElement(By.id("cartLink")).click();
+    String num = driver.findElement(By.id("hall001")).getAttribute("value");
+    int actual = Integer.parseInt(num);
+
+    assertEquals(expected,actual);
+  }
 
   private String[] getWords(String s) {
     return s.split("\\s+");
