@@ -36,7 +36,7 @@
 ## Application screenshots
 <br> ![application visual](Photos/app1.png)
 <br> ![application visual](Photos/app2.png)
-<br><![application visual](Photos/app3.png)
+<br> ![application visual](Photos/app3.png)
 <br>
 
 ## Output of mvn test
