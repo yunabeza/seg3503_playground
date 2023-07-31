@@ -34,7 +34,7 @@ class CalCFrame extends JFrame implements ActionListener
                       num1 = 0.0, 
                       num2 = 0.0, 
                       num3 = 0.0;
-  private final int   ADD=1,        // integer constants representing operators
+  private static final int   ADD=1,        // integer constants representing operators
                       SUB = 2, 
                       MULT = 3, 
                       DIVI = 4, 
@@ -71,16 +71,7 @@ public CalCFrame(String title) {
     buttons[i].setFont( buttonfont );
     buttons[i].addActionListener( this );
     
-    if ( i <= 2 )
-        getContentPane().add( buttons[i] );
-    else if ( i >= 3 && i <= 7)
-        getContentPane().add( buttons[i] );
-    else if ( i >=8 && i <= 12 )
-        getContentPane().add( buttons[i] );
-    else if ( i >= 13 && i <= 17 )
-        getContentPane().add( buttons[i] );
-    else
-        getContentPane().add( buttons[i] );
+    getContentPane().add( buttons[i] );
        
     if ( i == 2 )
         getContentPane().add( new JLabel( "  " ) );
@@ -301,7 +292,7 @@ public void processNumbers() {
   
     // if more than two numbers are being inputted to calculate, this "if" block
     // is accessed
-    else if (morenums) { 
+    else{ 
       
       if ( equals ) {
        
@@ -344,7 +335,9 @@ public double calculate( int oper, double number1, double number2 )
             break;
           case SQRT:
             answer = Math.sqrt( number1 );
-            break;      
+            break; 
+          default:
+            break;     
       } // end switch  
       
      return answer;     
@@ -357,7 +350,7 @@ public void showAnswer( String s )
 {
     double answer;
     
-    answer = Double.valueOf(s).doubleValue();
+    answer = Double.parseDouble(s);
     if ( decnumber )    
     result.setText( Double.toString(answer) );
     else
